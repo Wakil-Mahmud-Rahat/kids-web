@@ -309,14 +309,17 @@ nav a {
     }
     .card, .card-two , .card-three {
         width: 90%;
-        margin-left: 19px;
+        margin-left: 20px;
        
 
     }
 
     .font-size-four{
-        align-items: center;
         text-align: center;
+        font-size: 1.625rem;
+        font-weight: 700;
+        margin-top: 50px;
     }
 
-}
+
+    }
