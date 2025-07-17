@@ -391,13 +391,11 @@ nav a {
     grid-template-columns: 1fr;
     gap: 20px;
     width: 90%;
-    margin-top: 105vh;
+    margin-top: 100vh;
     margin-left: 20px;
 
     }
-    .add-padding {
-    padding-left: 20px;
-    }
+   
 
 
     }
