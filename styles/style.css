@@ -165,9 +165,11 @@ nav a {
 
     .add-padding-one {
         grid-row: 2;
+        margin: 10px 0;
     }
     .img-size-one {
         grid-row: 1;
+        margin: 10px 0;
     }
     .img-size-one > img {
     width: 90%;
