@@ -109,10 +109,65 @@ nav a {
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
+/* btn related styles */
+.btn-common {
+ color: white;
+    border: none;
+    width: 174px;
+    height: 38px;
+    border-radius: 47.93px;
 
+    background: rgb(149, 178, 38);
+}
+
+.add-padding-two  {
+    margin-top: -45px;
+    
+}
 
 /* flex related styles */
+/* s */
+.story-grid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: repeat(2, auto); */
+    gap: 20px;
 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.story {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+
+    padding-bottom: 20px;
+}
+
+
+.story > img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+
+.story:first-child {
+    grid-row: span 2;
+}
+
+
+.add-padding {
+    padding-left: 20px;
+}
+
+.add-padding-two {
+    padding: 20px 20px 0 20px;
+}
+/* end */
 .flex {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -244,6 +299,14 @@ nav a {
 }
 
 
+.font-size-seven {
+    font-size: .96rem;
+    font-weight: 700;
+}
+/* .font-size-eight {
+    font-size: 1rem;
+    font-weight: 700;
+} */
 /* responsiveness for small devices */
 @media screen and (max-width: 576px) {
 
@@ -320,6 +383,21 @@ nav a {
         font-weight: 700;
         margin-top: 50px;
     }
+
+    
+    .story-grid {
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 90%;
+    margin-top: 105vh;
+    margin-left: 20px;
+
+    }
+    .add-padding {
+    padding-left: 20px;
+}
 
 
     }
