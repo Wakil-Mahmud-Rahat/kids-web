@@ -161,4 +161,13 @@ nav a {
         display: flex;
         flex-direction: column;
     }
+
+    .img-size-one > img {
+    width: 90%;    
+}
+
+    .add-padding-one {
+        width: 90%;
+    }
+
 }
