@@ -160,7 +160,8 @@ nav a {
     .flex{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* justify-self: center; */
+        justify-content: center;
+        text-align: center;
     }
 
     .add-padding-one {
@@ -170,15 +171,23 @@ nav a {
     .img-size-one {
         grid-row: 1;
         margin: 10px 0;
+        /* font-size: 2rem; */
     }
     .img-size-one > img {
     width: 90%;
-    padding-left: 35px;
+    /* padding-left: 35px; */
     }
 
     .add-padding-one {
         width: 90%;
+        /* font-size: 2rem; */
         
     }
+    .font-size-two {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+   
 
 }
