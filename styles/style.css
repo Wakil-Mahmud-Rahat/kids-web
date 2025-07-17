@@ -163,6 +163,12 @@ nav a {
         /* justify-self: center; */
     }
 
+    .add-padding-one {
+        grid-row: 2;
+    }
+    .img-size-one {
+        grid-row: 1;
+    }
     .img-size-one > img {
     width: 90%;
     padding-left: 35px;
