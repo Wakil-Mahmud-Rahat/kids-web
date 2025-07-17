@@ -396,6 +396,8 @@ nav a {
 
     }
    
-
+    .story > p {
+        padding-left: 20px;
+    }
 
     }
