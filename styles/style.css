@@ -47,10 +47,14 @@ nav a {
 
 .color-one {
     color: rgb(254, 163, 1);
+    margin: 0;
+    padding: 0;
 } 
 
 .color-two {
     color: rgb(1, 172, 253);
+    margin: 0;
+    padding: 0;
 }
 
 .color-three {
@@ -85,6 +89,43 @@ nav a {
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
+.btn-two {
+    margin-top: 20px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    border: none;
+    width: 176px;
+    height: 45px;
+}
+
+.btn-two a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+
+/* flex related styles */
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+}
+.img-size-one > img {
+    width: 100%;    
+}
+.img-size-one {
+    justify-self: end;
+}
+
+.add-padding-one {
+    padding-left: 30px;
+}
+.add-padding-one> span, p{
+    padding-top: 20px;
+}
 
 /* font size related styles */
 
@@ -94,6 +135,15 @@ nav a {
     font-weight: 500;
 }
 
+.font-size-two {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.font-size-three{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 /* responsiveness for small devices */
 @media screen and (max-width: 576px) {
 
@@ -102,8 +152,13 @@ nav a {
     }
     
     nav {
-
-        margin: 10px 0px 0px 0px;
+        margin: 0;
         padding: 0;
+        margin-top: 10px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
     }
 }
