@@ -3,6 +3,7 @@
 
 /* universal styles */
 
+
 *{
     padding: 0;
     margin: 0;
@@ -22,6 +23,10 @@ nav {
 }
 
 /* nav related styles */
+
+.mobile-nav {
+    display: none;
+}
 
 nav, ul, li{
     display: flex;
@@ -147,14 +152,10 @@ nav a {
 /* responsiveness for small devices */
 @media screen and (max-width: 576px) {
 
-    nav, ul, li {
-        flex-direction: column;
-    }
-    
+
+
     nav {
-        margin: 0;
-        padding: 0;
-        margin-top: 10px;
+        display: none;
     }
 
     .flex{
@@ -171,16 +172,14 @@ nav a {
     .img-size-one {
         grid-row: 1;
         margin: 10px 0;
-        /* font-size: 2rem; */
     }
+    
     .img-size-one > img {
     width: 90%;
-    /* padding-left: 35px; */
     }
 
     .add-padding-one {
         width: 90%;
-        /* font-size: 2rem; */
         
     }
     .font-size-two {
@@ -188,6 +187,21 @@ nav a {
         font-weight: 600;
     }
 
-   
 
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 10px 20px;
+    }
+
+    .logo-img> img{
+        height: 40px;
+        width: 40px;
+    }
+    .icon{
+        font-size: 1.5rem;
+        align-items: center;
+    }
 }
