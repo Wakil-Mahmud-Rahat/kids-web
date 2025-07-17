@@ -1,0 +1,108 @@
+/* Font Related Styles */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* universal styles */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;   
+}
+
+
+.in-middle {
+    max-width: 1160px;
+    margin: auto;
+}
+
+nav {
+    margin-top: 15px;
+    align-items: center;
+}
+
+/* nav related styles */
+
+nav, ul, li{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-div-one ul {
+
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+/* color related styles */
+
+.color-one {
+    color: rgb(254, 163, 1);
+} 
+
+.color-two {
+    color: rgb(1, 172, 253);
+}
+
+.color-three {
+    color: rgb(5, 212, 223);
+}
+
+.color-four {
+    color: rgb(93, 88, 239);
+}
+
+.logo {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* btn related styles */
+
+
+.btn-one {
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    width: 176px;
+    height: 45px;
+
+    border: none;
+    font-size: 1.25rem;
+    
+}
+
+.btn-one a{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* font size related styles */
+
+
+.font-size-one {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* responsiveness for small devices */
+@media screen and (max-width: 576px) {
+
+    nav, ul, li {
+        flex-direction: column;
+    }
+    
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+}
