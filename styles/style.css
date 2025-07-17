@@ -309,6 +309,7 @@ nav a {
     }
     .card, .card-two , .card-three {
         width: 90%;
+        margin-left: 16px;
         place-items: center;
         justify-content: center;
         align-items: center;
