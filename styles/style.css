@@ -384,19 +384,22 @@ nav a {
         margin-top: 50px;
     }
 
-    
+    .story {
+        flex-wrap: wrap;
+    }
     .story-grid {
    
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 90%;
-    margin-top: 100vh;
+    margin-top: 90vh;
     margin-left: 20px;
 
     }
    
     .story > p {
+
         padding-left: 20px;
     }
 
