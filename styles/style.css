@@ -379,6 +379,7 @@ nav a {
     }
 
     .font-size-four{
+        
         text-align: center;
         font-size: 1.625rem;
         font-weight: 700;
@@ -387,14 +388,17 @@ nav a {
 
     .story {
         flex-wrap: wrap;
+           
+
     }
+
+    
     .story-grid {
    
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     width: 90%;
-    margin-top: 90vh;
     margin-left: 20px;
 
     }
@@ -403,6 +407,10 @@ nav a {
 
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .fix-mobile-width {
+        margin-top: 80vh;
     }
 
     }
