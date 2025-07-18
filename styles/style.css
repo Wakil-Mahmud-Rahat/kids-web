@@ -162,6 +162,7 @@ nav a {
 
 .add-padding {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .add-padding-two {
@@ -401,6 +402,7 @@ nav a {
     .story > p {
 
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     }
